@@ -1,6 +1,8 @@
 import 'jquery';
 import './styles/thecore.css';
 import './styles/thecore.scss';
+// Same images, even if with different filenames, are bundled just once (very clever).
+// Different images are bundled separately, obviously.
 import CustomerLogo from './images/customer_logo.png';
 import Logo from './images/logo.png';
 
