@@ -11,7 +11,7 @@ console.log($)
 function printLogo(logo) {
     const myLogo = new Image();
     myLogo.src = logo;
-    console.log(myLogo);
+    console.log(myLogo.src);
 }
 
 printLogo(CustomerLogo);
