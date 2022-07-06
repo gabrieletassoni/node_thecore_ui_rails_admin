@@ -1,4 +1,19 @@
+@font-face {
+  font-family: 'ThecoreRobotoNormal';
+  src: url('./fonts/Roboto/Roboto-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ThecoreRobotoItalic';
+  src: url('./fonts/Roboto/Roboto-LightItalic.ttf') format('ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
 .hello {
   color: red;
   background: url('../images/logo.png');
+  font-family: 'ThecoreRobotoNormal', sans-serif;
 }
